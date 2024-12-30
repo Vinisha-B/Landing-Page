@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Event Registration</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <h1>Join Us for the Tech Summit 2025</h1>
+                <p>Discover the latest in technology, innovation, and networking oppurtunities.</p>
+            </div>
+        </header>
+        <section class="event-details">
+            <div class="container">
+                <h2>Event Details</h2>
+                <ul>
+                    <li><strong>Date:</strong>February 10, 2025</li>
+                    <li><strong>Time:</strong>10:00 AM - 4.00 PM</li>
+                    <li><strong>Location:</strong>Tech Convention Centre, Coimbatore</li>
+                    <li><strong>Entry Fee:</strong>Free(Limited Seats)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="registration-form">
+            <div class="container">
+                <h2>Register Now</h2>
+                <form action="submit_registration.php" method="POST">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your Phone Number:" required>
+                    <label for="comments">Comments/Questions</label>
+                    <textarea id="comments" name="comments" placeholder="Let us know your thoughts"></textarea>
+                    <button type="submit" class="btn">Register Now</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Tech Summit. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: #f9f9f9;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background: linear-gradient(to right,#6a11cb,#2575fc);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.header h1{
+    font-size: 2.5rem;
+}
+
+.header p{
+    margin: 1rem 0;
+}
+
+.event-details{
+    padding: 2rem 1rem;
+    background: #fff;
+    text-align: center;
+}
+
+.event-details h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.event-details ul{
+    list-style: none;
+    padding: 0;
+}
+
+.event-details li{
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.registration-form{
+    padding: 2rem 1rem;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.registration-form h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: #6a11cb;
+}
+
+.footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer p{
+    font-size: 0.9rem;
+}
